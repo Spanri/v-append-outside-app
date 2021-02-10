@@ -3,8 +3,8 @@ import Example from './Example.vue';
 
 Vue.config.productionTip = false;
 
-import vAppendOutsideAppDirective from '@/entry.ts';
-Vue.use(vAppendOutsideAppDirective)
+import vMovingPanelsDirective from '@/entry.ts';
+Vue.use(vMovingPanelsDirective)
 
 new Vue({
   render: (h): VNode => h(Example),

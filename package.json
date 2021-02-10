@@ -1,15 +1,15 @@
 {
-  "name": "v-append-outside-app",
+  "name": "v-moving-panels",
   "version": "1.0.0",
-  "description": "Now you can set your block outside #app, but with the same position",
-  "main": "dist/v-append-outside-app.ssr.js",
-  "browser": "dist/v-append-outside-app.esm.js",
-  "module": "dist/v-append-outside-app.esm.js",
-  "unpkg": "dist/v-append-outside-app.min.js",
-  "types": "v-append-outside-app.d.ts",
+  "description": "You can add this directive to parent of blocks and blocks can be moved relative to each other",
+  "main": "dist/v-moving-panels.ssr.js",
+  "browser": "dist/v-moving-panels.esm.js",
+  "module": "dist/v-moving-panels.esm.js",
+  "unpkg": "dist/v-moving-panels.min.js",
+  "types": "v-moving-panels.d.ts",
   "files": [
     "dist/*",
-    "v-append-outside-app.d.ts",
+    "v-moving-panels.d.ts",
     "src/**/*.vue"
   ],
   "scripts": {
